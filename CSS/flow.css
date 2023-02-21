@@ -1,0 +1,119 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+
+margin: 0 0 0 0;
+
+}
+
+button{
+  padding: 7px 16px 7px 16px;
+  font-family: roboto;
+  font-size: 20px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  color: white;
+}
+
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.container1{
+
+  display: flex;
+  height: 400px;
+  width: 100vw;
+  background-color: rgb(255, 21, 4);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2{
+
+  display: flex;
+  height: 400px;
+  width: 100vw;
+  background-color: rgb(3, 91, 253);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container3{
+
+  display: flex;
+  height: 400px;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.heading{
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.menu1{
+  width: 50px;
+  display:  none;
+}
+
+
+@media only screen and (max-width: 425px){
+
+  button:active{
+    color: black;
+    background-color: white;
+  }
+
+  p{
+    margin-left: 10px;
+  }
+
+  button{
+    margin-left: 10px;
+  }
+
+  .container1{
+    align-items: flex-start;
+  }
+  
+  .container2{
+    align-items: flex-start;
+  }
+  
+  .container3{
+    align-items: flex-start;
+  }
+  
+
+
+  .menu1{
+    width: 50px;
+    display: block;
+  }
+}
